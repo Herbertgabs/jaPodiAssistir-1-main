@@ -45,8 +45,8 @@ a {
   text-decoration: none;
   color: white;
 }
-a:hover {
-  opacity: 95%;
+#navbar a:hover {
+  opacity: 80%;
   transition: color 0.2s;
 }
 main {

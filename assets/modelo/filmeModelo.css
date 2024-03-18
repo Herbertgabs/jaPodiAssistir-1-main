@@ -7,9 +7,10 @@ body {
 }
 
 .filmeModelo {
+  padding-top: 3rem;
   margin: 2rem;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   max-width: 100rem;
 }
@@ -107,22 +108,6 @@ span {
   opacity: 50;
 }
 
-@media screen and (min-width: 600px) {
-  .filmeModelo {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .iconesFilme {
-    flex-direction: column;
-    align-items: left;
-  }
-
-  .iconesFilme > * {
-    margin-bottom: 0.5rem;
-  }
-}
 .diretorBold {
   font-weight: bold;
 }

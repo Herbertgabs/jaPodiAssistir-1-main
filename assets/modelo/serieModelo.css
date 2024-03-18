@@ -5,9 +5,10 @@ body {
 }
 
 .SerieModelo {
+  padding-top: 3rem;
   margin: 2rem;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1rem;
   max-width: 100rem;
 }
@@ -117,24 +118,4 @@ body {
   color: red;
   transition: 0.5s;
   opacity: 50;
-}
-
-@media screen and (min-width: 600px) {
-  .SerieModelo {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .iconesSerie {
-    flex-direction: column;
-    align-items: left;
-  }
-
-  .iconesSerie > * {
-    margin-bottom: 0.5rem;
-  }
-}
-.comentario {
-  max-width: 50rem;
 }
